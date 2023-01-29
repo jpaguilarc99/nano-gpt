@@ -1,0 +1,14 @@
+<%- include("partials/header"); %>  
+
+<h1>NanoGPT</h1> <h2>A small model based on ChatGPT Architecture</h2>
+<form class="" method="POST" action="/gpt">
+
+    <div class="form-group">      
+      <label>A message to GPT</label>
+      <textarea class="form-control" rows="5" cols="20" name="postText"></textarea>                
+    </div>
+    <button class="btn btn-primary" type="submit" name="button">Ask to GPT!</button>  
+
+</form>
+
+<%- include("partials/footer"); %> 

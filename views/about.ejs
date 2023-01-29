@@ -1,0 +1,25 @@
+<%- include("partials/header"); %>  
+
+<h2>Introduction</h2>
+<h4>
+    This API allows a technique called fine tuning to GPT-3, 
+    which consists of improve the pre-trained model with specific and optimized data required for an objective use.
+</h4>
+
+<h2>Authentication</h2>
+<h4>
+    To access the davinci-003 API you need to go to the OpenAI documentation and request a private access key that will be generated only once. 
+    <a href="https://beta.openai.com/docs/introduction">See more here.</a>
+</h4>
+
+<h2>More about NanoGPT</h2>
+<h4>
+    The simplest, fastest repository for training/finetuning medium-sized GPTs. It is a rewrite of minGPT that prioritizes teeth over education. 
+    Still under active development, but currently the file train.py reproduces GPT-2 (124M) on OpenWebText, running on a single 8XA100 40GB node in 38 hours of training. 
+    The code itself is plain and readable: train.py is a ~300-line boilerplate training loop and model.py a ~300-line GPT model definition, which can optionally load the GPT-2 weights from OpenAI. 
+    That's it.
+</h3>
+
+<p><a href="https://github.com/karpathy/nanoGPT">A more detailed documentation here.</a></p>
+
+<%- include("partials/footer"); %> 
